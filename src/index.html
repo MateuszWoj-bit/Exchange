@@ -4,29 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Homework 11</title>
+    <title>Kurs walut</title> 
   </head>
   <body>
-    <div class="line--blue"></div>    
-      <form class="search-form" id="search-form">
-        <input
-          type="text"
-          name="searchQuery"
-          autocomplete="off"
-          placeholder="Search images..."
-        />
-        <button type="submit" class="submit">
-          <img
-            class="glass"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/16px-Magnifying_glass_icon.svg.png"
-          />
-        </button>
-      </form>
- <button  class="switch">Image Loader: Infinite Scroll</button>    
-    
+    <div class="date"></div>
     <div class="gallery"></div>
- <button  class="load-more">Load More</button>
-    <script src="index.js" type="module"></script>
+    <!-- <button  class="load">Load</button> -->
+    <div class="charts">      
+      <div class="chart--size">
+        <canvas class="chart" id="myChart"></canvas>
+      </div>
+      <div class="chart--size">
+        <canvas class="chart" id="myChart1"></canvas>
+      </div>
+      <div class="chart--size">
+        <canvas class="chart" id="myChart2"></canvas>
+      </div>
+      <div class="chart--size">
+        <canvas class="chart" id="myChart3"></canvas>
+      </div>
+    </div>
+    <script src="index.js" type="module" defer></script>
   </body>
 </html>
